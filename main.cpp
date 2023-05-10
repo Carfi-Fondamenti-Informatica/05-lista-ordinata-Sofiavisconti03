@@ -8,15 +8,15 @@ int lista[10];
     int a=0;
     cin >> a;
 
-    if (lista[9]>a){
+    if (a>lista[9]){
     for (int i=0; i<10; i++){
-    if (lista[i]>a){
-    for (int j=9; j>i; --j){
-     lista[j]-lista[j-1];}
-     lista[i]=a;}
-     break;
+        cout<<lista[i]<<"";
+    }}
+    else{
+
 
     for(int i=0;i<10;i++){
+        for(; lista[i]<a;i++){
         cout << lista[i] << " ";
 
     }}}
